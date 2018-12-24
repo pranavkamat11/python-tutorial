@@ -25,3 +25,7 @@ name = "gayatri"
 surname = "kamat"
 message = "{} {} , how are you ".format(name,surname)
 print(message)
+
+# newer way using f strings
+message = f'{name} {surname.upper()}'
+print(message)
