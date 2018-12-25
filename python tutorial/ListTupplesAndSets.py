@@ -51,4 +51,9 @@ nums = [1,5,4,3]
 nums.sort(reverse = True)
 print(nums)
 
+# sorted function 
+courses = ['history','maths','computer']
+sorted_courses = sorted(courses)
+print(sorted_courses)
+
 # Set allows to work with collection of values with no duplicates
