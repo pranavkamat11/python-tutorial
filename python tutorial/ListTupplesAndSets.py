@@ -1,6 +1,6 @@
 # List and tupples allow to work with sequential data
 
-courses = ['history','Maths','computer']
+courses = ['history','maths','computer']
 print(courses)
 print(len(courses))
 print(courses[0])
@@ -17,18 +17,32 @@ courses.insert(1,'geography')
 print(courses)
 
 
-courses = ['history','Maths','computer']
+courses = ['history','maths','computer']
 courses_2 = ["Machine Learning","Artificial Intelligence"]
 courses.extend(courses_2)
 print(courses)
 
-courses = ['history','Maths','computer']
-courses.remove('Maths')
+courses = ['history','maths','computer']
+courses.remove('maths')
 print(courses)
 
 # Using list like stack . ie removing the last element
-courses = ['history','Maths','computer']
-courses.pop()
+courses = ['history','maths','computer']
+popped = courses.pop()
+print(popped)
+
+# reversing a list
+courses = ['history','maths','computer']
+courses.reverse()
 print(courses)
 
+#sorting the list 
+courses = ['history','maths','computer']
+courses.sort()
+print(courses)
+
+#sorting numbers
+nums = [1,5,4,3]
+nums.sort()
+print(nums)
 # Set allows to work with collection of values with no duplicates
