@@ -68,6 +68,33 @@ print(courses.index('history'))
 # check if something available in list
 print('Docker' in courses)
 
+# for loop to iterate through list 
+courses = ['history','maths','computer']
+for course in courses:
+	print (course)
+
+#getting index too while looping
+courses = ['history','maths','computer']
+for index , course in enumerate(courses):
+	print(index , course , "line ",index + 1)
+
+print("")
+
+#setting start index too while looping
+courses = ['history','maths','computer']
+for index , course in enumerate(courses,start = 1):
+	print(index , course)
+
+# comma separation and all
+courses = ['history','maths','computer']
+courses_str = ', '.join(courses)
+print(courses_str)
+
+# converting comma separated or whatever string to list
+new_list = courses_str.split(', ')
+print(new_list)
+
+
 
 
 # Set allows to work with collection of values with no duplicates
