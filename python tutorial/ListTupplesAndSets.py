@@ -56,4 +56,9 @@ courses = ['history','maths','computer']
 sorted_courses = sorted(courses)
 print(sorted_courses)
 
+# min function
+nums = [1,5,4,3]
+min_number = min(nums)
+print(min_number)
+
 # Set allows to work with collection of values with no duplicates
