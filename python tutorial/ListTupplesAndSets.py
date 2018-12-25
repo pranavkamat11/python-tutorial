@@ -45,4 +45,10 @@ print(courses)
 nums = [1,5,4,3]
 nums.sort()
 print(nums)
+
+#sorting in descending order
+nums = [1,5,4,3]
+nums.sort(reverse = True)
+print(nums)
+
 # Set allows to work with collection of values with no duplicates
