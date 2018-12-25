@@ -56,9 +56,18 @@ courses = ['history','maths','computer']
 sorted_courses = sorted(courses)
 print(sorted_courses)
 
-# min function
+# min function. similarly max function and sum 
 nums = [1,5,4,3]
 min_number = min(nums)
 print(min_number)
+
+# finding index 
+courses = ['history','maths','computer']
+print(courses.index('history'))
+
+# check if something available in list
+print('Docker' in courses)
+
+
 
 # Set allows to work with collection of values with no duplicates
