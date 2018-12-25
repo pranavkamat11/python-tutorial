@@ -94,7 +94,10 @@ print(courses_str)
 new_list = courses_str.split(', ')
 print(new_list)
 
-
+#creating empty list
+empty_list = []
+empty_list = list()
+print(empty_list)
 
 
 # Set allows to work with collection of values with no duplicates
