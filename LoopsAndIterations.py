@@ -38,3 +38,9 @@ while x < 10 :
 		continue
 	print(x)
 	x += 1
+
+print("hello")
+
+courses = ['history','maths','computer']
+for index , course in enumerate(courses):
+	print(index , course)
