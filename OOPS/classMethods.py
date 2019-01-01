@@ -24,17 +24,16 @@ class Employee :
 	def set_raise_amt(cls,amount):
 		cls.raise_amount = amount
 
-	
+	@classmethod
+	def from_string(cls,emp_str):
+		first,last,pay = emp_str.split('-')
+		return cls(first,last,pay) #cls(first,last,pay) will call the constructor
 
 emp_1 = Employee('Pranav','Kamat',60000)
 emp_2 = Employee('Gayatri','Kamat',50000)
-print("total number of employees is ")
+
+emp_str_1 = 'John-Doe-70000'
+new_emp_1 = Employee.from_string(emp_str_1)
+print(new_emp_1.__dict__)
+
 print(Employee.num_of_employees)
-
-Employee.set_raise_amt(1.5)
-print(Employee.raise_amount)
-print(emp_1.raise_amount)
-print(emp_2.raise_amount)
-
-# even emp_1.set_raise_amt(1.6) works same unexpectadly
-
